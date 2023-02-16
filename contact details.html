@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact details</title>
+</head>
+<body>
+    <h1>Lewis' Contact Details</h1>
+    <p>Email: lewis@brown.pm</p>
+    
+    <h2>Contact me!</h2>
+
+    <form class="Contact form" action="mailto:lewis@brown.pm" method="post" enctype="text/plain">
+        <label> Your Name:
+            <input name="submitted-name" autocomplete="name">
+        </label>
+        <br>
+        <br>
+        <label> Your Email:</label>
+            <input type="email" autocomplete="email">
+        <br>
+        <br>
+        <label for="birthday">Your Birthday:</label>
+            <input type="date" name="birthday" id="">
+        <br><br>
+        <label>Your message:</label>
+            <br><br>
+        <textarea id="message" name="message"
+        rows="5" cols="33"></textarea>
+        <br><br>
+        <input type="submit">
+      </form>
+
+</body>
+</html>
